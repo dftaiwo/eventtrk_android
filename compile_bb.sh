@@ -1,7 +1,7 @@
 #!/bin/bash
-rm -rf platforms/bb/www platforms/bb/compiled
-cp -r www platforms/bb
-cd platforms/bb/www
+rm -rf platforms/bbww/www platforms/bb/compiled
+cp -r www platforms/bbww
+cd platforms/bbww/www
 cp ../config.xml ./
 rm -rf spec spec.html res
 rm -f `find . -name ".DS_*"`
@@ -11,4 +11,4 @@ zip -r ../eventtrk.zip *
 cd ../
 bbwp eventtrk.zip -o compiled 
 
-echo "Compiled to platforms/bb/compiled"
+echo "Compiled to platforms/bbww/compiled"

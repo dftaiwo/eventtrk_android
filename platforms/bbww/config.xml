@@ -8,9 +8,9 @@
 <widget xmlns="http://www.w3.org/ns/widgets"
         xmlns:rim="http://www.blackberry.com/ns/widgets"
         version="1.0.0.0" id="com.gdg.eventtrk">
-        <name>Cinemaz</name>
+        <name>EventTrk</name>
         <description>
-                Cinemaz
+                EventTrk
         </description>
         <author href="http://gdglagos.com/" rim:copyright="Copyright 2013 gdglagos.com">GDGLagos</author>
         <license href="http://gdglagos.com.com/"></license>

@@ -15,7 +15,6 @@
         <author href="http://gdglagos.com/" rim:copyright="Copyright 2013 gdglagos.com">GDGLagos</author>
         <license href="http://gdglagos.com.com/"></license>
 
-
         <feature id="blackberry.ui.dialog"/>
 
         <feature id="blackberry.app.event" required="true" version="1.0.0"/>

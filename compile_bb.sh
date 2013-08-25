@@ -1,5 +1,5 @@
 #!/bin/bash
-rm -rf platforms/bbww/www platforms/bb/compiled
+rm -rf platforms/bbww/www platforms/bbww/compiled
 cp -r www platforms/bbww
 cd platforms/bbww/www
 cp ../config.xml ./

@@ -151,21 +151,24 @@
                         </div>
                         <div id="createEvent" data-role="view">
                                 <h2>Create Event</h2>
-                                <form action="#" class="createForm" onsubmit=" return postEvent();" id="thisForm">
+                                <form action="#" class="createForm" onsubmit=" return postEvent();" id="createEventForm">
+                                        <input type="hidden" name="d1" value="abc" />
                                         <label for="eventTitle">Event Title:</label>
-                                        <input type="text" placeholder="Title of Event" name="name" id="eventTitle" />
+                                        <input type="text" placeholder="Title of Event" name="name" id="eventTitle" required />
                                         <label for="eventDesc">Event Description:</label>
-                                        <textarea placeholder="Title of Event" name="eventDesc" id="eventDescription"></textarea>
+                                        <textarea placeholder="Description of Event" name="description" id="eventDescription"  required ></textarea>
                                         <label for="eventDate">Date:</label>
-                                        <input type="text" placeholder="Date of Event e.g 2013-08-25" name="date" id="eventDate"/>
+                                        <input type="text" placeholder="Date of Event e.g 2013-08-25" name="event_date" id="eventDate"  required />
                                         <label for="eventTime">Time:</label>
-                                        <input type="text" placeholder="Time e.g 1:00pm" name="time" id="eventTime"/>
+                                        <input type="text" placeholder="Time e.g 1:00pm" name="event_starts" id="eventTime"/>
                                         <label for="eventLocation">Location/Venue:</label>
-                                        <textarea placeholder="Full address of Event Venue" name="location" id="eventLocation"></textarea>
+                                        <textarea placeholder="Full address of Event Venue" name="event_address" id="eventLocation"  required ></textarea>
                                         <label for="eventKeywords">Keywords:</label>
-                                        <input type="text" placeholder="Keywords that describe this event" name="time" id="eventKeywords"/>
+                                        <input type="text" placeholder="Keywords that describe this event" name="event_keywords" id="eventKeywords"  required />
                                         <label for="eventRegistration">Registration Link:</label>
-                                        <input type="text" placeholder="Link for Registration or More Information" name="time" id="eventRegistration"/>
+                                        <input type="text" placeholder="Link for Registration or More Information" name="registration_link" id="eventRegistration"  required />
+                                        <input type="hidden" name="action" value="create" />
+                                        <input type="hidden" name="d2" value="abc" />
                                         <br />
                                         <input type="submit" name="submitButton" class="submitButton" value="Post Event" />
                                 </form>

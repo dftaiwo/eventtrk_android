@@ -3,7 +3,7 @@ body{
         font-weight:200;
         font-size:1em;
         background:#dfe2e2;
-        color:#000;
+        color:#111;
         line-height:1.5em;
 }
 
@@ -17,7 +17,9 @@ div a {
         font-weight:300;
         border-bottom:1px solid #fff;
 }
-
+#wrapper a{
+        color:#111;
+}
 .eventsList .eventTitle a{
         color:#fff;
         font-weight:300;

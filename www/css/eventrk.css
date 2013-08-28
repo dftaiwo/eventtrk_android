@@ -2,29 +2,33 @@ body{
         font-family:'proxima-nova',sans-serif,'Trebuchet MS',Arial;
         font-weight:200;
         font-size:1em;
-        background:#5e7d00;
-        color:#fff;
+        background:#dfe2e2;
+        color:#111;
         line-height:1.5em;
 }
+
 header a{
         color:#fff;
         text-decoration: none;
 }
+
 div a {
         color:#efe;
         font-weight:300;
         border-bottom:1px solid #fff;
+        cursor: pointer;
 }
-
-.eventsList .eventTitle a{
+#wrapper a{
+        color:#111;
+}
+#eventsList a.name{
         color:#fff;
         font-weight:300;
         border:0;
         text-decoration: none;
 }
 
-.eventsList  a{
-        color:#fff;
+#eventsList  a{
         font-weight:100;
         border:0;
         text-decoration: none;
@@ -32,27 +36,31 @@ div a {
 
 }
 
-.eventsList  .eventTitle a{
+#eventsList  a.name{
         font-weight:400;
         text-decoration: underline;
+        color:#000;
 }
 
 h1{
+        color:#fff;
         margin:0;
         padding:0.3em 0.2em;
         margin-left:0;
         padding-left:0;
         text-shadow: 1px 1px 0px #000;
         background:rgba(60,100,170,0.1);
-
 }
+
 h2{
+        
         background:rgba(60,100,170,0.1);
         padding:0.3em 0.5em;
         margin-left:0;
         padding-left:0;
         text-shadow: 1px 1px 0px #000;
-        
+        color:#fff;
+
 }
 
 div[data-role="view"]{
@@ -67,39 +75,40 @@ div[data-role="view"]:first-of-type{
         display:none;
 }
 
-.eventsList {
+#eventsList {
         margin:0;
         padding:0;
 
 }
 
-.eventsList li{
+#eventsList li{
         margin:0;
         margin-bottom: 1em;
         list-style: none;
         background:rgba(60,100,170,0.1);
         padding:0.7em;
 
-        border:1px solid #6f8e11;
+        border:1px solid #888;
         border-width:1px 0;
 
 }
 
-.eventsList li span{
+#eventsList li span{
         display:block;
 
 }
 
-.eventsList li span.eventTitle{
+#eventsList li span.name{
         font-size:1.1em;
         font-weight:400;
 }                
 
-.eventsList li span.eventDate a{
+#eventsList li.Event span.event_date_span a{
+
         float:right;
         font-size:1.2em;
         font-weight:bold;
-        border:1px solid #6f8e11;
+        border:1px solid #888;
         padding:0.8em;
         width:1.8em;
         height:1.8em;
@@ -110,7 +119,7 @@ div[data-role="view"]:first-of-type{
 
 }                
 
-.eventsList li span.eventTeaser{
+#eventsList li span.eventTeaser{
         font-size:0.9em;
 }
 
@@ -143,18 +152,22 @@ textarea:focus{
 
 .createForm{
         max-width:400px;
+
 }
+
 .submitButton{
         padding: 0.4em 2.4em;
-        font-size: 1.2em;
-        background: -moz-linear-gradient(top,  #fff 0%, #ddd 100%); /* FF3.6+ */
-        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff), color-stop(100%,#ddd)); /* Chrome, Safari 4+ */
-        background: -webkit-linear-gradient(top,  #fff 0%,#ddd 100%); /* Chrome 10+, Safari 5.1+ */
-        background: -o-linear-gradient(top,  #fff 0%,#ddd 100%); /* Opera 11.10+ */
-        background: -ms-linear-gradient(top,  #fff 0%,#ddd 100%); /* IE 10+ */
-        background: linear-gradient(top,  #fff 0%,#ddd 100%); /* W3C */
-        border: 2px outset #DDD;
+        font-size: 1.0em;
+        font-family:'proxima-nova',sans-serif,'Trebuchet MS',Arial;
         border-radius: 2px;
+        border: 1px solid #143250;
+        background-color: #288edf;
+        -webkit-box-shadow: inset 0 1px rgba(255,255,255,0.36);
+        box-shadow: inset 0 1px rgba(255,255,255,0.36);
+        color: #fff;
+        font-weight: 500;
+        text-shadow: 0 -1px rgba(0,0,0,0.36);
+
 }
 
 .submitButton:active{
@@ -170,7 +183,8 @@ textarea:focus{
         text-decoration: underline;       
         padding:0 0.4em;
         margin-left:0.1em;
-        border:1px solid #6f8e11;
+        border:1px solid #888;
+        border-width: 0 ;
 }
 
 .icons{
@@ -195,6 +209,7 @@ textarea:focus{
         text-align: center;
         color:#fff;
         font-size:1.3em;
+        text-shadow: 1px 1px 0px #888;
 }
 .icons li a img{
         

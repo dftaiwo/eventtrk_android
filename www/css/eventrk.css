@@ -16,19 +16,19 @@ div a {
         color:#efe;
         font-weight:300;
         border-bottom:1px solid #fff;
+        cursor: pointer;
 }
 #wrapper a{
         color:#111;
 }
-.eventsList .eventTitle a{
+#eventsList a.name{
         color:#fff;
         font-weight:300;
         border:0;
         text-decoration: none;
 }
 
-.eventsList  a{
-        color:#fff;
+#eventsList  a{
         font-weight:100;
         border:0;
         text-decoration: none;
@@ -36,9 +36,10 @@ div a {
 
 }
 
-.eventsList  .eventTitle a{
+#eventsList  a.name{
         font-weight:400;
         text-decoration: underline;
+        color:#000;
 }
 
 h1{
@@ -49,7 +50,6 @@ h1{
         padding-left:0;
         text-shadow: 1px 1px 0px #000;
         background:rgba(60,100,170,0.1);
-
 }
 
 h2{
@@ -75,13 +75,13 @@ div[data-role="view"]:first-of-type{
         display:none;
 }
 
-.eventsList {
+#eventsList {
         margin:0;
         padding:0;
 
 }
 
-.eventsList li{
+#eventsList li{
         margin:0;
         margin-bottom: 1em;
         list-style: none;
@@ -93,17 +93,18 @@ div[data-role="view"]:first-of-type{
 
 }
 
-.eventsList li span{
+#eventsList li span{
         display:block;
 
 }
 
-.eventsList li span.eventTitle{
+#eventsList li span.name{
         font-size:1.1em;
         font-weight:400;
 }                
 
-.eventsList li span.eventDate a{
+#eventsList li.Event span.event_date_span a{
+
         float:right;
         font-size:1.2em;
         font-weight:bold;
@@ -118,7 +119,7 @@ div[data-role="view"]:first-of-type{
 
 }                
 
-.eventsList li span.eventTeaser{
+#eventsList li span.eventTeaser{
         font-size:0.9em;
 }
 

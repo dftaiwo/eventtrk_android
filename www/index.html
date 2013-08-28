@@ -64,91 +64,66 @@
                         </div>
                         <div id="upcomingEvents" data-role="view">
                                 <h2>Upcoming Events</h2>
-                                <ul class="eventsList">
-                                        <li>
-                                                <span class="eventDate">
-                                                        <a href="#singleEvents">
+                                <ul id="eventsList">
+                                        
+                                        <li class="Event">
+                                                <span class="event_date_span">
+                                                        <a href="#singleEvents" class="human_date">
                                                                 Aug 26
                                                         </a>
                                                 </span>
-                                                <span class="eventTitle">
-                                                        <a href="#">Event Title</a>
+                                                <span>
+                                                        <a href="#" class="name">
+                                                                
+                                                        </a>
                                                 </span>
-                                                <span class="eventTeaser">
-                                                        <a href="#">
-                                                                Event Teaser goes here 
-                                                                Event Teaser goes here 
-                                                                Event Teaser goes here 
-                                                                Event Teaser goes here 
-                                                                Event Teaser goes here 
-                                                                Event Teaser goes here 
-                                                                Event Teaser goes here ...
+                                                <span>
+                                                        <a class="event_teaser">
+                                                                
                                                         </a>
                                                 </span>
                                                 <span class="clear"></span>
-                                        </li>
-                                        <li>
-                                                <span class="eventDate">
-                                                        Dec 12
-                                                </span>
-                                                <span class="eventTitle">
-                                                        Event Title
-                                                </span>
-                                                <span class="eventTeaser">
-                                                        Event Teaser goes here 
-                                                        Event Teaser goes here 
-                                                        Event Teaser goes here 
-                                                        Event Teaser goes here 
-                                                        Event Teaser goes here 
-                                                        Event Teaser goes here 
-                                                        Event Teaser goes here ...
-                                                </span>
-                                                <span class="clear"></span>
-                                        </li>
-                                        <li>
-                                                <span class="eventTitle">
-                                                        Event Title
-                                                </span>
-                                                <span class="eventTeaser">
-                                                        Event Teaser goes here ...
-                                                </span>
                                         </li>
                                 </ul>
                         </div>
 
                         <div id="singleEvents" data-role="view">
-                                <div class="Event">
-                                        <h2 class="EventTitle">Event Title</h2>
-                                        <div class="EventDescription">
+                                        <h2 class="EventTitle name">
+                                                
+                                        </h2>
+                                        <label>About Event</label>
+                                        <div class="EventDescription description">
                                                 Event Description Goes Here. The first argument specifies a hello directory to be generated for your project. Its www subdirectory houses your application's home page, along with various resources under css, js, and img, which follow common web development file-naming conventions. The config.xml file contains important metadata needed to generate and distribute the application.
                                                 The other two arguments are optional: the com.example.hello argument provides your project with a reverse domain-style identifier, and the HelloWorld provides the application's display text. You can edit both of these values later in the config.xml file.
                                                 The other two arguments are optional: the com.example.hello argument provides your project with a reverse domain-style identifier, and the HelloWorld provides the application's display text. You can edit both of these values later in the config.xml file.
                                                 The other two arguments are optional: the com.example.hello argument provides your project with a reverse domain-style identifier, and the HelloWorld provides the application's display text. You can edit both of these values later in the config.xml file.
                                         </div>
-                                        <label>Date & Time:</label>
-                                        <div class="EventDate">
-                                                12pm to 6pm<br />
-                                                August 26 - August 28
+                                        <label>Event Date</label>
+                                        <div class="EventDate event_date">
+                                                -
+                                        </div>
+                                        <label>Event Starts</label>
+                                        <div class="EventDate event_starts">
+                                                -
                                         </div>
                                         <label>Location:</label>
-                                        <div class="EventLocation">
-                                                295, Herbert Macaulay Road, Sabo, Yaba, Lagos
+                                        <div class="EventLocation event_address">
+                                                -
                                         </div>
                                         <label>Keywords:</label>
-                                        <div class="EventKeywords">
-                                                Developers, Venture Capitalist, Mobile Apps, Challenge, Android, Blackberry.
+                                        <div class="EventKeywords event_keywords">
+                                                -
                                         </div>
                                         <label>Registration:</label>
-                                        <div class="EventRegistration">
-                                                <a href="#">Click to Register &raquo;</a>
+                                        <div class="EventRegistration registration">
+                                                
                                         </div>
                                         <label>Published:</label>
-                                        <div class="EventPublished">
+                                        <div class="EventPublished created">
                                                 August 22, 2013.
                                         </div>
-                                </div>
-
                         </div>
+                        
                         <div id="createEvent" data-role="view">
                                 <h2>Create Event</h2>
                                 <form action="#" class="createForm" onsubmit=" return postEvent();" id="createEventForm">
@@ -170,7 +145,7 @@
                                         <input type="hidden" name="action" value="create" />
                                         <input type="hidden" name="d2" value="abc" />
                                         <br />
-                                        <input type="submit" name="submitButton" class="submitButton" value="Post Event" />
+                                        <input type="submit" name="submitButton" class="submitButton" value="Post Event" id="btnCreateEvent" />
                                 </form>
                         </div>
                         

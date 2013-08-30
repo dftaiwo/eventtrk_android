@@ -1,12 +1,12 @@
-RIM-COD-SHA1-9: 4f 38 ed 86 50 52 1b 33 a1 7a 93 16 d0 8b be 57 0a a5 9a 4c
-RIM-COD-SHA1-8: bd e7 fc a1 3e f1 c8 a3 08 36 8c 4d e3 4a 44 b5 22 87 2e 8a
-RIM-COD-SHA1-7: bf 9b 3a 59 a2 65 26 b9 70 fa 8c ef da f3 46 24 60 9b 06 2f
-RIM-COD-SHA1-6: af d2 69 9c b1 7d 18 e4 7b b0 e1 d3 1d f4 10 ed 0b d9 20 f8
-RIM-COD-SHA1-5: e7 96 c5 a6 af 32 d8 8b 4d 6d d7 cd e2 46 1c 01 54 c1 f8 17
-RIM-COD-SHA1-4: 3e 49 18 24 f6 fd f6 f9 e1 8a 8a cf 68 9d 5b b1 35 ff cc f4
-RIM-COD-SHA1-3: 57 b1 ed 10 39 bc 32 74 41 c8 86 af 0f e9 39 d3 57 59 a4 8b
-RIM-COD-SHA1-2: 66 fe 7d 87 0e b3 7e 91 67 a7 7f ed 06 6f 9c e7 48 c0 56 cf
-RIM-COD-SHA1-1: db 1e a0 f8 f6 66 3c ed 22 87 7a e8 1c a2 2e 68 a1 93 33 e5
+RIM-COD-SHA1-9: 4b 66 e4 f9 5f 80 9a ca f7 8a 42 69 8e b7 9d ef f3 ef 33 78
+RIM-COD-SHA1-8: 99 95 67 9f 9a 55 8b c6 ab 97 e2 d6 70 9e c1 3e a8 46 81 61
+RIM-COD-SHA1-7: 44 4b 79 f0 3d 56 df bf 5a be d7 b7 66 5d 75 34 6f e3 93 b4
+RIM-COD-SHA1-6: 2f 13 9a 0c d6 66 67 a6 93 9f f0 12 97 93 a2 f3 95 ec 6e c3
+RIM-COD-SHA1-5: 85 31 d0 00 bf 38 60 fa d6 be fc 1d cb aa 4d 0a ab 4b a3 ec
+RIM-COD-SHA1-4: bc b3 60 cd bc e0 77 4d f1 62 03 39 5b 76 b5 b1 19 f4 cc ba
+RIM-COD-SHA1-3: 42 93 76 19 cc ee 8f 29 d4 94 31 3c f3 b8 5f 04 9e fa ff 87
+RIM-COD-SHA1-2: c3 2e 0a cf 9d 78 d5 1e 32 c4 5f b1 5d 4b 35 4c 5d 6a f1 41
+RIM-COD-SHA1-1: ee dd aa 3b 85 6f 7d 4f 65 8d d7 3d 8b 91 b0 ea 47 9c 6d b2
 RIM-COD-URL-19: eventtrk-19.cod
 RIM-COD-URL-18: eventtrk-18.cod
 RIM-COD-URL-17: eventtrk-17.cod
@@ -33,26 +33,26 @@ RIM-COD-Size-15: 49252
 RIM-COD-Size-14: 48444
 RIM-COD-Size-13: 54864
 RIM-COD-Size-12: 49980
-RIM-COD-Size-11: 53840
+RIM-COD-Size-11: 53972
 RIM-COD-Size-10: 54416
 MIDlet-Version: 1.0.0.0
 MicroEdition-Profile: MIDP-2.0
 RIM-COD-URL: eventtrk.cod
-RIM-COD-Creation-Time: 1377888663
+RIM-COD-Creation-Time: 1377892095
 MicroEdition-Configuration: CLDC-1.1
 MIDlet-Jar-URL: eventtrk.jar
-RIM-COD-SHA1-19: cb 95 4d 91 bd ce 6e 58 d6 72 6e b4 68 df 94 d3 79 b0 dc 83
-RIM-COD-SHA1-18: 0a b7 8c 9c 9b 06 74 39 61 36 e4 22 fc ed 61 6f b0 ce 1c df
-RIM-COD-SHA1-17: 19 2d 0c a5 85 59 52 25 48 41 91 a4 5c 1c a7 34 01 35 d0 02
-RIM-COD-SHA1-16: e0 91 73 f9 97 af e8 c3 36 c3 05 bc 5c 47 92 44 2c 74 cc b8
-RIM-COD-SHA1-15: d9 e9 7f cc 86 1b d3 42 de a6 d5 4e d3 a3 24 0f 6e a3 08 52
-RIM-COD-SHA1-14: 25 d6 a5 1c 74 7a 5f b5 c4 80 05 bc 9a a2 24 9d e5 71 6b 18
-RIM-COD-SHA1-13: 6a ed 44 69 8a bc 75 b2 5b dd b3 0e 5a 50 64 45 a0 b4 a0 92
-RIM-COD-SHA1-12: 5e c7 81 a4 48 cb 6b c9 5d 04 53 d6 6b 52 57 0c 3e 35 38 5e
+RIM-COD-SHA1-19: 46 65 6f 4a cb 08 61 eb 2e 1b a0 ba c3 08 58 94 f7 11 d6 c7
+RIM-COD-SHA1-18: f0 f4 d1 8b cb 75 7e d4 ea 74 3e 16 99 3c 23 d3 77 5e 6e 01
+RIM-COD-SHA1-17: 06 ef 6b 45 8a 15 4a a1 d7 f7 bb 65 78 4f c3 2c e7 c9 f8 b9
+RIM-COD-SHA1-16: bc 9a d3 db 06 b6 b0 e6 e6 1e 42 c4 95 4d 4b 2c c4 dd c9 c6
+RIM-COD-SHA1-15: 1e f2 c5 96 50 08 25 74 79 db 55 ba 31 11 20 c6 a4 19 a6 1e
+RIM-COD-SHA1-14: fb 48 bf fe d1 19 94 38 af 9f dc 0c 30 bc 15 28 5e 64 72 1c
+RIM-COD-SHA1-13: d5 3a 81 df 37 4c 6c 0c 2e a6 1b 49 87 0a a6 78 09 d7 d7 de
+RIM-COD-SHA1-12: e5 cc 14 cb ff 62 c1 1b 36 e2 51 d3 e8 36 72 19 42 58 97 99
 RIM-COD-Size-9: 54148
-RIM-COD-SHA1-11: 45 64 ea b5 46 19 23 81 ce 3e e0 2f 31 f7 24 d9 4f b7 91 c5
+RIM-COD-SHA1-11: 8d 6c 3c 5b 76 3c cd c4 0a 5b 61 18 d7 9b ad bd e6 c3 41 0f
 RIM-COD-Size-8: 49468
-RIM-COD-SHA1-10: e4 a7 c4 f5 d0 38 fb dd ce f6 d7 8c b9 3b 40 bb a7 e4 ea ec
+RIM-COD-SHA1-10: c9 6e e7 2b cd 2e 69 91 01 64 e5 86 63 75 03 20 ee 8d 44 fc
 RIM-COD-Size-7: 47944
 MIDlet-Description: EventTrk
 RIM-COD-Size-6: 45836
@@ -63,9 +63,9 @@ RIM-COD-Size-2: 68216
 RIM-COD-Size-1: 74168
 MIDlet-1: EventTrk,img/logo.png,rim:foreground;WIDGET;
 MIDlet-Name: EventTrk
-RIM-COD-SHA1: b8 61 6d f3 77 4a f6 8e 37 b9 dd 8b 34 61 22 6a f4 52 b8 ca
+RIM-COD-SHA1: 66 52 60 24 e9 94 66 04 3a 17 46 9b 18 29 0b e2 41 7b 5f 22
 RIM-COD-Module-Dependencies: net_rim_cldc,net_rim_bb_web_jse_api,net_rim_xml_org,net_rim_bb_browser_field2_api,net_rim_os,net_rim_bbapi_phone,net_rim_bbapi_mailv2,net_rim_pdap,net_rim_bbapi_invoke,net_rim_bbapi_browser,net_rim_bbapi_push,net_rim_bbapi_messagelist,net_rim_networkapi,net_rim_bb_browser_field_api,net_rim_xml
-MIDlet-Jar-Size: 1371394
+MIDlet-Jar-Size: 1371458
 RIM-COD-URL-9: eventtrk-9.cod
 RIM-COD-URL-8: eventtrk-8.cod
 RIM-COD-URL-7: eventtrk-7.cod

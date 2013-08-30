@@ -1,4 +1,4 @@
-var serverUrl = 'http://localhost/thinking/eventtrkserver/index.php';
+var serverUrl = 'http://apps.gdglagos.com/eventtrkserver/index.php';
 var eventsData = {}
 
 if (window.location.hostname != 'localhost') {

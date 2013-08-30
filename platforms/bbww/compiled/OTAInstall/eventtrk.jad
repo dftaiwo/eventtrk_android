@@ -1,0 +1,78 @@
+RIM-COD-SHA1-9: 4f 38 ed 86 50 52 1b 33 a1 7a 93 16 d0 8b be 57 0a a5 9a 4c
+RIM-COD-SHA1-8: bd e7 fc a1 3e f1 c8 a3 08 36 8c 4d e3 4a 44 b5 22 87 2e 8a
+RIM-COD-SHA1-7: bf 9b 3a 59 a2 65 26 b9 70 fa 8c ef da f3 46 24 60 9b 06 2f
+RIM-COD-SHA1-6: af d2 69 9c b1 7d 18 e4 7b b0 e1 d3 1d f4 10 ed 0b d9 20 f8
+RIM-COD-SHA1-5: e7 96 c5 a6 af 32 d8 8b 4d 6d d7 cd e2 46 1c 01 54 c1 f8 17
+RIM-COD-SHA1-4: 3e 49 18 24 f6 fd f6 f9 e1 8a 8a cf 68 9d 5b b1 35 ff cc f4
+RIM-COD-SHA1-3: 57 b1 ed 10 39 bc 32 74 41 c8 86 af 0f e9 39 d3 57 59 a4 8b
+RIM-COD-SHA1-2: 66 fe 7d 87 0e b3 7e 91 67 a7 7f ed 06 6f 9c e7 48 c0 56 cf
+RIM-COD-SHA1-1: db 1e a0 f8 f6 66 3c ed 22 87 7a e8 1c a2 2e 68 a1 93 33 e5
+RIM-COD-URL-19: eventtrk-19.cod
+RIM-COD-URL-18: eventtrk-18.cod
+RIM-COD-URL-17: eventtrk-17.cod
+RIM-COD-URL-16: eventtrk-16.cod
+RIM-COD-URL-15: eventtrk-15.cod
+RIM-COD-URL-14: eventtrk-14.cod
+RIM-COD-URL-13: eventtrk-13.cod
+RIM-COD-URL-12: eventtrk-12.cod
+RIM-COD-Size: 72104
+RIM-MIDlet-Icon-2-1: ____HOVER_ICON_img/logo.png,focused
+RIM-COD-URL-11: eventtrk-11.cod
+RIM-MIDlet-Icon-Count-2: 1
+RIM-COD-URL-10: eventtrk-10.cod
+RIM-MIDlet-Icon-Count-1: 1
+MIDlet-Vendor: GDGLagos
+RIM-MIDlet-Icon-1-1: img/____HOVER_ICON_logo.png,focused
+Manifest-Version: 1.0
+RIM-MIDlet-Flags-1: 0
+RIM-COD-Size-19: 43912
+RIM-COD-Size-18: 24384
+RIM-COD-Size-17: 49608
+RIM-COD-Size-16: 50704
+RIM-COD-Size-15: 49252
+RIM-COD-Size-14: 48444
+RIM-COD-Size-13: 54864
+RIM-COD-Size-12: 49980
+RIM-COD-Size-11: 53840
+RIM-COD-Size-10: 54416
+MIDlet-Version: 1.0.0.0
+MicroEdition-Profile: MIDP-2.0
+RIM-COD-URL: eventtrk.cod
+RIM-COD-Creation-Time: 1377888663
+MicroEdition-Configuration: CLDC-1.1
+MIDlet-Jar-URL: eventtrk.jar
+RIM-COD-SHA1-19: cb 95 4d 91 bd ce 6e 58 d6 72 6e b4 68 df 94 d3 79 b0 dc 83
+RIM-COD-SHA1-18: 0a b7 8c 9c 9b 06 74 39 61 36 e4 22 fc ed 61 6f b0 ce 1c df
+RIM-COD-SHA1-17: 19 2d 0c a5 85 59 52 25 48 41 91 a4 5c 1c a7 34 01 35 d0 02
+RIM-COD-SHA1-16: e0 91 73 f9 97 af e8 c3 36 c3 05 bc 5c 47 92 44 2c 74 cc b8
+RIM-COD-SHA1-15: d9 e9 7f cc 86 1b d3 42 de a6 d5 4e d3 a3 24 0f 6e a3 08 52
+RIM-COD-SHA1-14: 25 d6 a5 1c 74 7a 5f b5 c4 80 05 bc 9a a2 24 9d e5 71 6b 18
+RIM-COD-SHA1-13: 6a ed 44 69 8a bc 75 b2 5b dd b3 0e 5a 50 64 45 a0 b4 a0 92
+RIM-COD-SHA1-12: 5e c7 81 a4 48 cb 6b c9 5d 04 53 d6 6b 52 57 0c 3e 35 38 5e
+RIM-COD-Size-9: 54148
+RIM-COD-SHA1-11: 45 64 ea b5 46 19 23 81 ce 3e e0 2f 31 f7 24 d9 4f b7 91 c5
+RIM-COD-Size-8: 49468
+RIM-COD-SHA1-10: e4 a7 c4 f5 d0 38 fb dd ce f6 d7 8c b9 3b 40 bb a7 e4 ea ec
+RIM-COD-Size-7: 47944
+MIDlet-Description: EventTrk
+RIM-COD-Size-6: 45836
+RIM-COD-Size-5: 61064
+RIM-COD-Size-4: 45368
+RIM-COD-Size-3: 60332
+RIM-COD-Size-2: 68216
+RIM-COD-Size-1: 74168
+MIDlet-1: EventTrk,img/logo.png,rim:foreground;WIDGET;
+MIDlet-Name: EventTrk
+RIM-COD-SHA1: b8 61 6d f3 77 4a f6 8e 37 b9 dd 8b 34 61 22 6a f4 52 b8 ca
+RIM-COD-Module-Dependencies: net_rim_cldc,net_rim_bb_web_jse_api,net_rim_xml_org,net_rim_bb_browser_field2_api,net_rim_os,net_rim_bbapi_phone,net_rim_bbapi_mailv2,net_rim_pdap,net_rim_bbapi_invoke,net_rim_bbapi_browser,net_rim_bbapi_push,net_rim_bbapi_messagelist,net_rim_networkapi,net_rim_bb_browser_field_api,net_rim_xml
+MIDlet-Jar-Size: 1371394
+RIM-COD-URL-9: eventtrk-9.cod
+RIM-COD-URL-8: eventtrk-8.cod
+RIM-COD-URL-7: eventtrk-7.cod
+RIM-COD-URL-6: eventtrk-6.cod
+RIM-COD-URL-5: eventtrk-5.cod
+RIM-COD-URL-4: eventtrk-4.cod
+RIM-COD-URL-3: eventtrk-3.cod
+RIM-COD-URL-2: eventtrk-2.cod
+RIM-COD-URL-1: eventtrk-1.cod
+RIM-COD-Module-Name: eventtrk
